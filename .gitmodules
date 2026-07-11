@@ -1,3 +1,9 @@
 [submodule "tools/codegraph"]
 	path = tools/codegraph
 	url = https://github.com/colbymchenry/codegraph.git
+[submodule "tools/exa-mcp-server"]
+	path = tools/exa-mcp-server
+	url = https://github.com/exa-labs/exa-mcp-server.git
+[submodule "tools/tavily-mcp"]
+	path = tools/tavily-mcp
+	url = https://github.com/tavily-ai/tavily-mcp.git
