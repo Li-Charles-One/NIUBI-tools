@@ -1,59 +1,56 @@
 # NIUBI Search Tools
 
-精选 **搜索 / 检索 / 上下文增强** 工具合集（CLI、MCP、索引器），以 Git 子模块方式组织，方便追踪上游更新。
+精选 **搜索 / 检索 / 上下文增强** 工具清单（CLI、MCP）。
 
-> 与 [NIUBI-skills-collection](https://github.com/Li-Charles-One/NIUBI-skills-collection) 分工：那边放 Agent **Skill**；这边放 **工具本体**（不是 SKILL.md）。
+> 用法：当 **GitHub 清单** 看即可，日常不必 clone。  
+> 需要某个工具时，点「上游」按官方文档安装到你的 Agent。  
+> 与 [NIUBI-skills-collection](https://github.com/Li-Charles-One/NIUBI-skills-collection) 分工：那边是 Agent **Skill**；这边是 **工具本体**。
 
-适配：Claude Code / Cursor / Codex / OpenCode 等支持 MCP 或 CLI 的 Agent。
-
-## 使用方法
-
-克隆本仓库（含子模块）：
-
-```bash
-git clone --recurse-submodules https://github.com/Li-Charles-One/NIUBI-search-tools.git
-```
-
-已克隆但子模块为空？执行：
-
-```bash
-git submodule update --init --recursive
-```
-
-更新所有子模块到最新版本：
-
-```bash
-git submodule update --remote --merge
-```
+适配：Claude Code / Cursor / Codex / OpenCode 等。
 
 ## 工具列表
 
-| 工具 | 类型 | 功能 | 链接 |
+| 工具 | 类型 | 功能 | 上游 |
 |------|------|------|------|
-| [codegraph](./tools/codegraph) | CLI + MCP | 本地代码知识图谱：符号 / 调用链一键探索，省 token | [原仓库](https://github.com/colbymchenry/codegraph) |
-| [exa-mcp-server](./tools/exa-mcp-server) | MCP | Exa 网页搜索 / 代码搜索 / 公司研究 | [原仓库](https://github.com/exa-labs/exa-mcp-server) |
-| [tavily-mcp](./tools/tavily-mcp) | MCP | Tavily 实时搜索 / 抽取 / 地图 / 爬取 | [原仓库](https://github.com/tavily-ai/tavily-mcp) |
-| [context7](./tools/context7) | MCP + CLI | 最新库文档 / 版本化 API 示例检索 | [原仓库](https://github.com/upstash/context7) |
-| [firecrawl-mcp-server](./tools/firecrawl-mcp-server) | MCP | Firecrawl 网页抓取 / 搜索 / 爬取 | [原仓库](https://github.com/firecrawl/firecrawl-mcp-server) |
+| codegraph | CLI + MCP | 本地代码知识图谱：符号 / 调用链一键探索 | [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) |
+| exa-mcp-server | MCP | Exa 网页搜索 / 代码搜索 / 公司研究 | [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) |
+| tavily-mcp | MCP | Tavily 实时搜索 / 抽取 / 地图 / 爬取 | [tavily-ai/tavily-mcp](https://github.com/tavily-ai/tavily-mcp) |
+| context7 | MCP + CLI | 最新库文档 / 版本化 API 示例检索 | [upstash/context7](https://github.com/upstash/context7) |
+| firecrawl-mcp-server | MCP | Firecrawl 网页抓取 / 搜索 / 爬取 | [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) |
 
-## 目录结构
+## 怎么用（使用者）
+
+1. 在本页表格里挑工具  
+2. 打开「上游」仓库，按官方 README 安装（MCP / CLI）  
+3. 在你的 Agent 配置里启用后使用  
+
+**不需要** 把本仓库 clone 到本地当依赖。
+
+## 维护说明（维护者）
+
+本仓用 **git submodule** 钉住上游 commit，方便对版本；不是给最终用户跑的。
+
+```bash
+git clone --recurse-submodules https://github.com/Li-Charles-One/NIUBI-search-tools.git
+git submodule update --remote --merge   # 同步上游
+```
 
 ```
 NIUBI-search-tools/
 └── tools/
-    ├── codegraph/              ← git submodule
-    ├── exa-mcp-server/         ← git submodule
-    ├── tavily-mcp/             ← git submodule
-    ├── context7/               ← git submodule
-    └── firecrawl-mcp-server/   ← git submodule
+    ├── codegraph/              ← submodule
+    ├── exa-mcp-server/         ← submodule
+    ├── tavily-mcp/             ← submodule
+    ├── context7/               ← submodule
+    └── firecrawl-mcp-server/   ← submodule
 ```
 
 ## 收录原则
 
-- 面向 **搜索、检索、文档、代码索引、上下文增强**
-- 有独立上游仓库 → 用 **git submodule** 同步
-- 不是 Agent Skill（那些去 NIUBI-skills-collection）
+- 面向搜索、检索、文档、代码索引、上下文增强  
+- 有独立上游 → 子模块跟踪；使用者仍去上游安装  
+- 不是 Agent Skill（去 NIUBI-skills-collection）
 
 ## 贡献
 
-发现好用的搜索/检索工具？欢迎提 Issue 推荐或 PR 添加子模块。
+欢迎 Issue / PR 推荐新工具或更新子模块指针。
