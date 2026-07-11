@@ -4,9 +4,6 @@
 [submodule "tools/exa-mcp-server"]
 	path = tools/exa-mcp-server
 	url = https://github.com/exa-labs/exa-mcp-server.git
-[submodule "tools/tavily-mcp"]
-	path = tools/tavily-mcp
-	url = https://github.com/tavily-ai/tavily-mcp.git
 [submodule "tools/context7"]
 	path = tools/context7
 	url = https://github.com/upstash/context7.git
