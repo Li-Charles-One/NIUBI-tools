@@ -1,0 +1,3 @@
+[submodule "tools/codegraph"]
+	path = tools/codegraph
+	url = https://github.com/colbymchenry/codegraph.git
