@@ -15,11 +15,6 @@
 | codegraph | CLI + MCP | 本地代码知识图谱：符号 / 调用链一键探索 | [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) |
 | exa-mcp-server | MCP | Exa 网页搜索 / 代码搜索 / 公司研究 | [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) |
 
-> 已迁至 [NIUBI-skills-collection](https://github.com/Li-Charles-One/NIUBI-skills-collection)（本仓不再收录）：
-> - Tavily → `tavily-skills`（CLI Skill）
-> - Context7 → `context7` / `find-docs`（CLI Skill）
-> - Firecrawl → `firecrawl-cli`（CLI Skill）
-
 ## 怎么用（使用者）
 
 1. 在本页表格里挑工具  
