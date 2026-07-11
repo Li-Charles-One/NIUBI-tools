@@ -33,22 +33,19 @@ git submodule update --remote --merge
 | [codegraph](./tools/codegraph) | CLI + MCP | 本地代码知识图谱：符号 / 调用链一键探索，省 token | [原仓库](https://github.com/colbymchenry/codegraph) |
 | [exa-mcp-server](./tools/exa-mcp-server) | MCP | Exa 网页搜索 / 代码搜索 / 公司研究 | [原仓库](https://github.com/exa-labs/exa-mcp-server) |
 | [tavily-mcp](./tools/tavily-mcp) | MCP | Tavily 实时搜索 / 抽取 / 地图 / 爬取 | [原仓库](https://github.com/tavily-ai/tavily-mcp) |
-
-### 计划收录（尚未子模块）
-
-| 工具 | 类型 | 功能 |
-|------|------|------|
-| Context7 | MCP | 最新库文档 / API 示例检索 |
-| Firecrawl | CLI + MCP | 网页搜索 / 抓取 / 爬取 |
+| [context7](./tools/context7) | MCP + CLI | 最新库文档 / 版本化 API 示例检索 | [原仓库](https://github.com/upstash/context7) |
+| [firecrawl-mcp-server](./tools/firecrawl-mcp-server) | MCP | Firecrawl 网页抓取 / 搜索 / 爬取 | [原仓库](https://github.com/firecrawl/firecrawl-mcp-server) |
 
 ## 目录结构
 
 ```
 NIUBI-search-tools/
 └── tools/
-    ├── codegraph/        ← git submodule
-    ├── exa-mcp-server/   ← git submodule
-    └── tavily-mcp/       ← git submodule
+    ├── codegraph/              ← git submodule
+    ├── exa-mcp-server/         ← git submodule
+    ├── tavily-mcp/             ← git submodule
+    ├── context7/               ← git submodule
+    └── firecrawl-mcp-server/   ← git submodule
 ```
 
 ## 收录原则
