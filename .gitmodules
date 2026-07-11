@@ -4,9 +4,6 @@
 [submodule "tools/exa-mcp-server"]
 	path = tools/exa-mcp-server
 	url = https://github.com/exa-labs/exa-mcp-server.git
-[submodule "tools/context7"]
-	path = tools/context7
-	url = https://github.com/upstash/context7.git
 [submodule "tools/firecrawl-mcp-server"]
 	path = tools/firecrawl-mcp-server
 	url = https://github.com/firecrawl/firecrawl-mcp-server.git

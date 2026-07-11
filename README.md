@@ -14,10 +14,11 @@
 |------|------|------|------|
 | codegraph | CLI + MCP | 本地代码知识图谱：符号 / 调用链一键探索 | [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) |
 | exa-mcp-server | MCP | Exa 网页搜索 / 代码搜索 / 公司研究 | [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) |
-| context7 | MCP + CLI | 最新库文档 / 版本化 API 示例检索 | [upstash/context7](https://github.com/upstash/context7) |
 | firecrawl-mcp-server | MCP | Firecrawl 网页抓取 / 搜索 / 爬取 | [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) |
 
-> Tavily 已迁至 [NIUBI-skills-collection](https://github.com/Li-Charles-One/NIUBI-skills-collection) 的 `tavily-skills`（CLI Skill），本仓不再收录 tavily-mcp。
+> 已迁至 [NIUBI-skills-collection](https://github.com/Li-Charles-One/NIUBI-skills-collection)（本仓不再收录）：
+> - Tavily → `tavily-skills`（CLI Skill）
+> - Context7 → `context7` / `find-docs`（CLI Skill）
 
 ## 怎么用（使用者）
 
@@ -41,7 +42,6 @@ NIUBI-search-tools/
 └── tools/
     ├── codegraph/              ← submodule
     ├── exa-mcp-server/         ← submodule
-    ├── context7/               ← submodule
     └── firecrawl-mcp-server/   ← submodule
 ```
 
