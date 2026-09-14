@@ -1,6 +1,6 @@
-# NIUBI Search Tools
+# NIUBI Tools
 
-精选 **搜索 / 检索 / 上下文增强** 工具清单（CLI、MCP）。
+精选 **实用工具清单**（CLI、MCP：代码检索、搜索增强、浏览器与桌面控制等）。
 
 > 用法：当 **GitHub 清单** 看即可，日常不必 clone。  
 > 需要某个工具时，点「上游」按官方文档安装到你的 Agent。  
@@ -30,12 +30,12 @@
 本仓用 **git submodule** 钉住上游 commit，方便对版本；不是给最终用户跑的。
 
 ```bash
-git clone --recurse-submodules https://github.com/Li-Charles-One/NIUBI-search-tools.git
+git clone --recurse-submodules https://github.com/Li-Charles-One/NIUBI-tools.git
 git submodule update --remote --merge   # 同步上游
 ```
 
 ```
-NIUBI-search-tools/
+NIUBI-tools/
 └── tools/
     ├── codegraph/              ← submodule
     ├── exa-mcp-server/         ← submodule
@@ -45,7 +45,7 @@ NIUBI-search-tools/
 
 ## 收录原则
 
-- 面向搜索、检索、文档、代码索引、上下文增强  
+- 面向开发辅助、搜索检索、浏览器与桌面自动化等实用工具本体  
 - 有独立上游 → 子模块跟踪；使用者仍去上游安装  
 - 不是 Agent Skill（去 NIUBI-skills-collection）
 
