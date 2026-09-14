@@ -14,6 +14,7 @@
 |------|------|------|------|
 | codegraph | CLI + MCP | 本地代码知识图谱：符号 / 调用链一键探索 | [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) |
 | exa-mcp-server | MCP | Exa 网页搜索 / 代码搜索 / 公司研究 | [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) |
+| playwright-mcp | MCP | 微软官方浏览器自动化：网页点击/填表/快照/截屏/会话保持 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
 
 ## 怎么用（使用者）
 
@@ -36,7 +37,8 @@ git submodule update --remote --merge   # 同步上游
 NIUBI-search-tools/
 └── tools/
     ├── codegraph/              ← submodule
-    └── exa-mcp-server/         ← submodule
+    ├── exa-mcp-server/         ← submodule
+    └── playwright-mcp/         ← submodule
 ```
 
 ## 收录原则
