@@ -7,3 +7,6 @@
 [submodule "tools/playwright-mcp"]
 	path = tools/playwright-mcp
 	url = https://github.com/microsoft/playwright-mcp.git
+[submodule "tools/Windows-MCP"]
+	path = tools/Windows-MCP
+	url = https://github.com/CursorTouch/Windows-MCP.git
