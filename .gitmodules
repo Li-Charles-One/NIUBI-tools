@@ -10,3 +10,7 @@
 [submodule "tools/Windows-MCP"]
 	path = tools/Windows-MCP
 	url = https://github.com/CursorTouch/Windows-MCP.git
+[submodule "tools/browse"]
+	path = tools/browse
+	url = https://github.com/anomalyco/browse.git
+	branch = dev

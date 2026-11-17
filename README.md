@@ -16,6 +16,7 @@
 | exa-mcp-server | MCP | Exa 网页搜索 / 代码搜索 / 公司研究 | [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) |
 | playwright-mcp | MCP | 微软官方浏览器自动化：网页点击/填表/快照/截屏/会话保持 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
 | Windows-MCP | MCP | Windows 桌面端系统控制：鼠标/键盘/应用启动/截屏/UI树识别 | [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) |
+| browse | CLI + MCP | OpenCode 官方：用你真实的 Chrome 系浏览器（沿用登录态/扩展），后台开标签读页/点击/截屏/抓包，登录、2FA 时交还给你 | [anomalyco/browse](https://github.com/anomalyco/browse) |
 
 ## 怎么用（使用者）
 
@@ -40,7 +41,8 @@ NIUBI-tools/
     ├── codegraph/              ← submodule
     ├── exa-mcp-server/         ← submodule
     ├── playwright-mcp/         ← submodule
-    └── Windows-MCP/            ← submodule
+    ├── Windows-MCP/            ← submodule
+    └── browse/                 ← submodule
 ```
 
 ## 收录原则
